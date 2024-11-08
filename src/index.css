@@ -40,8 +40,6 @@ text-align: left;
   box-shadow: 0px 0.82px 1.64px 0px #0000000D;
 }
 .btn {
-  
-
   font-family: Karla;
   width: 25rem;
   height: 3rem;
@@ -52,14 +50,26 @@ text-align: left;
   color: white;
   cursor: pointer;
   transition: 400ms ;
- 
-  }
+  font-size: 1rem;
+ }
   .btn:hover {
     background: linear-gradient(90.41deg, #370447 1.14%, #4b0662, #9b0ccb 100%);
-   
+  
   }
   .btns {
    display: flex;
    justify-content: center;
-   padding: 40px;
+   padding: 40px 40px 25px 
   }
+  .image-container {
+    width: 550px;
+    height: 500px;
+    margin: 0 auto;
+    border: none;
+  
+  }
+  .image-container img {
+    width: 550px;
+    height: 500px;
+    border: none;
+}
